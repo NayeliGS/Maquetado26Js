@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 40%;   
+}
+
+.Body__Text> .paragraph--bold{
+    font-size:300% ;
+    font-weight:bolder;
+    color: azure;
+}
+
+.Body__Text> .paragraph--normal{
+    font-size:200% ; 
+    color: azure;
+    margin-top: 20px;
+}
+
+.button__register{
+    background-color: azure;
+    width: 400px;
+    height:80px;
+    border-radius: 35px;
+    color: hsl(257, 40%, 49%);
+    font-size:160% ; 
+}
+
+.SocialMedia__Icons{  
+    height: 100px;
+}
+
+.Icons{
+    width: 50px;  
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width:768px){
+    header{
+        position: relative;
+        top: 50px;
+        left:50px;
+    }
+
+    #image__principal{
+        position: relative;
+        top: 140px;
+        left:30px;
+    }
+
+    .Body__Text{ 
+        position: relative;
+        top: 220px;
+        width: 80%;
+        left: 60px;
+        text-align: center;  
+    }
+
+    .button__register{
+        position: relative;
+        top: 270px;
+        left: 160px;
+    }
+
+    .SocialMedia__Icons{
+        position: relative;
+        top: 400px;
+        left: 270px;
+    }
+ }
+
+ @media only screen and (min-width: 769px) {
+    header{
+        position: relative;
+        top: 50px;
+        left:50px;
+    }
+
+    #image__principal{
+        position: relative;
+        width: 300%;
+        top: 140px;
+        left:30px;
+    }
+
+    .Body__Text{ 
+        position: relative;
+        width: 32%;
+        left: 760px;
+        bottom: 270px;
+        font-size: 50%;   
+    }
+
+    .button__register{
+        position: relative;
+        left: 760px;
+        bottom: 250px;
+        width: 12%;
+        height: 90%;
+        font-size:130% ;
+    }
+
+    .SocialMedia__Icons{
+        position: relative;
+        left: 900px;
+        top: 6px;
+    }
+}
+

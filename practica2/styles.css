@@ -1,0 +1,63 @@
+header{
+    width: 90vw;
+    height: 11vh;
+    background-color: greenyellow;
+
+}
+nav{
+    width: 80vw;
+    height: 5vh;
+    background-color: green;
+    margin-left: 50px;
+    color: azure;
+    margin-top: 10px;
+}  
+
+main{
+    width:90vw;
+    height: 380px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    
+    
+}
+.aside1{
+    background-color:orange;
+    width: 22vw;
+    height: 67vh;
+    color: aliceblue;
+}
+.maincuadro{
+    background-color: orangered;
+    width: 40vw;
+    height: 67vh;
+    margin-left: 306px;
+    margin-top: -388px;
+    color: azure;
+     
+}
+
+article{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 40px;
+    margin-left: 40px;
+    color: black;
+    margin-top: 60px;
+}
+.aside2{
+    background-color:orange;
+    width: 22vw;
+    height: 67vh;
+    margin-left: 840px;
+    margin-top: -388px;
+    
+    color: aliceblue;
+}
+footer{
+    width: 90vw;
+    height: 11vh;
+    background-color: violet;
+    color:white;
+    margin-top: 24px;
+  }
